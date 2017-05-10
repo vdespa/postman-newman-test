@@ -1,7 +1,7 @@
 {
   "name": "Postman-API-Tests",
   "scripts": {
-  	"api-tests": "newman -c tests/jsonplaceholder.typicode.com.postman_collection.json"	
+  	"api-tests": "newman run tests/jsonplaceholder.typicode.com.postman_collection.json --reporters cli,html,junit --reporter-junit-export newman.xml --reporter-html-export newman.html"	
   },
   "dependencies": {
     "newman": "^3.5.2"
