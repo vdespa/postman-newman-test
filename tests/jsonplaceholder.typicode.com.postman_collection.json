@@ -17,7 +17,7 @@
 						"exec": [
 							"tests[\"Status code is 200\"] = responseCode.code === 200;",
 							"",
-							"tests[\"Response time is less than 40ms\"] = responseTime < 40;"
+							"tests[\"Response time is less than 200ms\"] = responseTime < 200;"
 						]
 					}
 				}
