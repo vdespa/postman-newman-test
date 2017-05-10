@@ -1,0 +1,7 @@
+{
+  "name": "Postman API Tests",
+  "api-tests": "newman -c tests/jsonplaceholder.typicode.com.postman_collection.json",	
+  "dependencies": {
+    "newman": "^3.5.2"
+  }
+}
